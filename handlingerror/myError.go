@@ -1,4 +1,4 @@
-package customerror
+package handlingerror
 
 import (
 	"errors"
@@ -10,7 +10,7 @@ type customError struct {
 	msg  string
 }
 
-func (e *customError) Error() string {
+func (e *customError) Error() string { // notice here we use *obj
 	return fmt.Sprintf("error[%d] : %s", e.code, e.msg)
 }
 
@@ -29,7 +29,7 @@ func f2(arg int) (int, error) {
 }
 
 func Test() {
-	for _, i := range []int{7, 42} {
+	for _, i := range []int{7, 42} { // use _ to hold the place where we don't want to know the exact value
 		if r, e := f1(i); e != nil { // we could use this way  instead of condition1 && condition2 in if condition
 			fmt.Println("f1 failed: ", e)
 		} else {

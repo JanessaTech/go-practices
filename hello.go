@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hi-supergirl/go-practices/sorting"
+	stringuage "github.com/hi-supergirl/go-practices/string_uage"
 )
 
 func main() {
@@ -26,5 +26,11 @@ func main() {
 	//concurrence.Test_channel_rate_limit()
 	//concurrence.Test_concurrence_atomic_counter()
 
-	sorting.Test_sort_nornal_sorting()
+	//sorting.Test_sort_nornal_sorting()
+
+	//handlingerror.Test_panic()
+	//handlingerror.Test_recover()
+	//stringuage.Test_strings()
+	//stringuage.Test_formatting()
+	stringuage.Test_text_template()
 }

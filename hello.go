@@ -1,7 +1,7 @@
 package main
 
 import (
-	stringuage "github.com/hi-supergirl/go-practices/string_uage"
+	"github.com/hi-supergirl/go-practices/functions"
 )
 
 func main() {
@@ -25,6 +25,7 @@ func main() {
 	//concurrence.Test_concurrence_waitgroup()
 	//concurrence.Test_channel_rate_limit()
 	//concurrence.Test_concurrence_atomic_counter()
+	//concurrence.Test_Spawning_Processes()
 
 	//sorting.Test_sort_nornal_sorting()
 
@@ -32,5 +33,17 @@ func main() {
 	//handlingerror.Test_recover()
 	//stringuage.Test_strings()
 	//stringuage.Test_formatting()
-	stringuage.Test_text_template()
+	//stringuage.Test_text_template()
+	//stringuage.Test_json()
+
+	//commands.Test_command_lines()
+	//commands.Test_flag()
+
+	//http.Test_http_client()
+	//http.Test_http_server()
+
+	//fileiogo.Test_read_file()
+	//fileiogo.Test_file_write()
+	//fileiogo.Test_read_line()
+	functions.FunAsMethodParam()
 }

@@ -46,5 +46,6 @@ func main() {
 	//fileiogo.Test_file_write()
 	//fileiogo.Test_read_line()
 	//functions.FunAsMethodParam()
-	functions.TestInterfaces()
+	//functions.TestInterfaces()
+	functions.TestAnonymousFunc()
 }

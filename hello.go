@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hi-supergirl/go-practices/functions"
+	"github.com/hi-supergirl/go-practices/embedded"
 )
 
 func main() {
@@ -47,5 +47,6 @@ func main() {
 	//fileiogo.Test_read_line()
 	//functions.FunAsMethodParam()
 	//functions.TestInterfaces()
-	functions.TestAnonymousFunc()
+	//functions.TestAnonymousFunc()
+	embedded.EmbedInterface2Interface()
 }

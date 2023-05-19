@@ -7,18 +7,18 @@ import (
 
 var onlyOnce sync.Once
 
-func doOnceCall() {
+func doConfig() {
 	onlyOnce.Do(func() {
-		fmt.Printf("It is called for the first time")
+		fmt.Printf("Read configuration file from I/O disk")
 	})
 	fmt.Println("done")
 
 }
 
 func DoOnceDemo() {
-	go doOnceCall()
-	go doOnceCall()
-	go doOnceCall()
+	go doConfig()
+	go doConfig()
+	go doConfig()
 
 	// keep  running until ctrl-c
 	for {

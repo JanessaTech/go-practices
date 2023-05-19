@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hi-supergirl/go-practices/embedded"
+	syncdemo "github.com/hi-supergirl/go-practices/syncDemo"
 )
 
 func main() {
@@ -45,8 +45,12 @@ func main() {
 	//fileiogo.Test_read_file()
 	//fileiogo.Test_file_write()
 	//fileiogo.Test_read_line()
+
 	//functions.FunAsMethodParam()
 	//functions.TestInterfaces()
 	//functions.TestAnonymousFunc()
-	embedded.EmbedInterface2Interface()
+
+	//embedded.EmbedInterface2Interface()
+
+	syncdemo.DoOnceDemo()
 }

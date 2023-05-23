@@ -1,7 +1,7 @@
 package main
 
 import (
-	syncdemo "github.com/hi-supergirl/go-practices/syncDemo"
+	refectiondemo "github.com/hi-supergirl/go-practices/refectionDemo"
 )
 
 func main() {
@@ -52,5 +52,6 @@ func main() {
 
 	//embedded.EmbedInterface2Interface()
 
-	syncdemo.DoOnceDemo()
+	//syncdemo.DoOnceDemo()
+	refectiondemo.Demo()
 }

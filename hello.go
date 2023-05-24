@@ -1,7 +1,7 @@
 package main
 
 import (
-	refectiondemo "github.com/hi-supergirl/go-practices/refectionDemo"
+	contextusage "github.com/hi-supergirl/go-practices/contextUsage"
 )
 
 func main() {
@@ -53,5 +53,7 @@ func main() {
 	//embedded.EmbedInterface2Interface()
 
 	//syncdemo.DoOnceDemo()
-	refectiondemo.Demo()
+	//refectiondemo.Demo()
+	contextusage.Main()
+
 }

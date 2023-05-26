@@ -1,6 +1,8 @@
 package main
 
-import "github.com/hi-supergirl/go-practices/channel"
+import (
+	contextusage "github.com/hi-supergirl/go-practices/contextUsage"
+)
 
 func main() {
 
@@ -10,7 +12,7 @@ func main() {
 	//channel.Test_channel_basic()
 	//channel.Test_channel_buffer()
 	//channel.Test_channel_syn()
-	channel.Test_channel_select()
+	//channel.Test_channel_select()
 	//channel.Test_channel_timeout()
 	//channel.Test_channel_select_nonblocking()
 	//channel.Test_channel_close()
@@ -53,6 +55,6 @@ func main() {
 	//syncdemo.DoOnceDemo()
 	//refectiondemo.Demo()
 
-	//contextusage.Main()
+	contextusage.Main()
 
 }

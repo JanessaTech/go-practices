@@ -107,7 +107,7 @@ func withTimeout() {
 // https://zhuanlan.zhihu.com/p/611879579
 func Main() {
 	//storeValueInContext()
-	withCancel()
-	//withDeadline()
+	//withCancel()
+	withDeadline()
 	//withTimeout()
 }

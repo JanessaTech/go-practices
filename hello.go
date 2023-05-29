@@ -1,7 +1,7 @@
 package main
 
 import (
-	contextusage "github.com/hi-supergirl/go-practices/contextUsage"
+	"github.com/hi-supergirl/go-practices/mapdemo"
 )
 
 func main() {
@@ -55,6 +55,7 @@ func main() {
 	//syncdemo.DoOnceDemo()
 	//refectiondemo.Demo()
 
-	contextusage.Main()
+	//contextusage.Main()
 
+	mapdemo.MapDemo()
 }
